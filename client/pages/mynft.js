@@ -209,7 +209,7 @@ const Home = () => {
 							{boughtNfts.map((boughtNft, i) => (
 								<div
 									key={i}
-									className='border shadow-lg rounded-xl overflow-hidden w-56 h-56 border-gray-300'
+									className='border shadow-lg rounded-xl overflow-hidden w-60 h-60 border-gray-300'
 								>
 									<img src={boughtNft.image} />
 								</div>

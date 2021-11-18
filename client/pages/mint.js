@@ -94,10 +94,11 @@ const mint = () => {
 			</button>
 			<div className='text-xl font-semibold mb-32'>
 				<a
-					href={`https://rinkeby.rarible.com/collection/${nftContractAddress}`}
+					href='https://testnets.opensea.io/collection/eternalnft-ndrjdtcpmb'
 					target='_blank'
 				>
-					<span className='underline'>View Collection on Rarible</span>
+					<span>🌊</span>{' '}
+					<span className='underline'>View Collection on OpenSea</span>
 				</a>
 			</div>
 			{loadingState === 0 ? (
