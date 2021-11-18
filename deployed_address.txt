@@ -1,1 +1,3 @@
-deployed_address
+EternalNFT Contract Address = '0x6FF882213D7B0465779FE49eaF121031d6b8656c'
+EternalMarketplace Contract Address = '0xa54C07861370f060265dFe9764dE015522D97E3E'
+Network: Rinkeby
