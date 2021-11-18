@@ -100,7 +100,6 @@ function MyApp({ Component, pageProps }) {
 			{!correctNetwork && (
 				<div className='flex flex-col justify-center items-center pt-40 font-bold text-2xl gap-y-3'>
 					<div>----------------------------------------</div>
-					<div>Wrong Network</div>
 					<div>Please connect to the Rinkeby Testnet</div>
 					<div>and reload the page</div>
 					<div>----------------------------------------</div>
