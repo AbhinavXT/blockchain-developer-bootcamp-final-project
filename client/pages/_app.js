@@ -86,7 +86,11 @@ function MyApp({ Component, pageProps }) {
 			) : correctNetwork ? (
 				<div>
 					<div className='flex justify-between items-baseline pt-8 px-20'>
-						<div className='font-extrabold text-3xl'>Eternal Domain</div>
+						<Link href='/'>
+							<div className='font-extrabold text-3xl cursor-pointer'>
+								Eternal Domain
+							</div>
+						</Link>
 						<div className='flex gap-x-12 text-xl font-bold'>
 							<Link href='/'>Home</Link>
 							<Link href='/mint'>Mint</Link>
