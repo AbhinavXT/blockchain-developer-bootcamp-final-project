@@ -1,12 +1,20 @@
 # Final project - Eternal Domain Marketplace
 
 ## Table of Contents:
+
+- [Final project - Eternal Domain Marketplace](#final-project---eternal-domain-marketplace)
+  - [Table of Contents:](#table-of-contents)
   - [Deployed Website url](#deployed-website-url)
   - [Screencast link](#screencast-link)
   - [Project Description](#project-description)
   - [Workflow](#workflow)
   - [Directory structure](#directory-structure)
-  - [Installation and Working](#installation-and-working)
+  - [Clone, Install and Build steps](#clone-install-and-build-steps)
+    - [Prerequisites](#prerequisites)
+    - [Cloning and installing dependencies](#cloning-and-installing-dependencies)
+    - [Testing Contracts](#testing-contracts)
+    - [Running the frontend](#running-the-frontend)
+    - [Deploying and running against a local instance](#deploying-and-running-against-a-local-instance)
   - [TODO Fetures](#todo-fetures)
 
 ## Deployed Website url
@@ -72,6 +80,82 @@ blockchain-developer-bootcamp-final-project
  ┗ package.json
 ```
 
-## Installation and Working
+## Clone, Install and Build steps
+
+### Prerequisites
+
+1. [Git](https://git-scm.com/)
+2. [Node JS](https://nodejs.org/en/) (everything was installed and tested under v15.12.0)
+3. A Browser with the [MetaMask extension](https://metamask.io/) installed.
+4. Test Ether on the Rinkeby network.
+
+<br>
+
+### Cloning and installing dependencies
+
+1. Clone the project repository on your local machine
+
+```
+ git clone https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project.git
+
+ cd blockchain-developer-bootcamp-final-project
+```
+
+2. Installing dependencies
+
+- For contracts -
+  ```
+  npm install
+  ```
+- For client -
+  ```
+  cd client
+  npm install
+  ```
+
+### Testing Contracts
+
+For testing contracts run command:
+
+```
+npx hardhat test
+```
+
+### Running the frontend
+
+For running frontend locally run command:
+
+```
+cd client
+npm run dev
+```
+
+### Deploying and running against a local instance
+
+For deploying and running the dapp against a local instance run commands:
+
+```
+npx hardhat node
+```
+
+This should create a local network with 19 accounts. Keep it runnning, and in another terminal run:
+
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+When the deployment is complete, the CLI should print out the addresses of the contracts that were deployed:
+
+```
+EternalMarket deployed to: 'EternalMarketplace contract address'
+EternalNFT deployed to: 'EternalNFT contract address'
+```
+
+Copy these addresses and paste them in the **config.js** file inside the client floder, in place of current addresses.
+
+Now switch your MetaMask wallet network to Localhost 8545 and import the account using the private keys listed by hardhat.
+_For better testing the transfer of tokens and transactions import at least 2 accounts_
+
+After this you can run and test the dapp locally in your web browser.
 
 ## TODO Fetures
