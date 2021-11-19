@@ -14,7 +14,6 @@
     - [Cloning and installing dependencies](#cloning-and-installing-dependencies)
     - [Testing Contracts](#testing-contracts)
     - [Running the frontend](#running-the-frontend)
-    - [Deploying and running against a local instance](#deploying-and-running-against-a-local-instance)
   - [TODO Fetures](#todo-fetures)
 
 ## Deployed Website url
@@ -129,33 +128,5 @@ For running frontend locally run command:
 cd client
 npm run dev
 ```
-
-### Deploying and running against a local instance
-
-For deploying and running the dapp against a local instance run commands:
-
-```
-npx hardhat node
-```
-
-This should create a local network with 19 accounts. Keep it runnning, and in another terminal run:
-
-```
-npx hardhat run scripts/deploy.js --network localhost
-```
-
-When the deployment is complete, the CLI should print out the addresses of the contracts that were deployed:
-
-```
-EternalMarket deployed to: 'EternalMarketplace contract address'
-EternalNFT deployed to: 'EternalNFT contract address'
-```
-
-Copy these addresses and paste them in the **config.js** file inside the client floder, in place of current addresses.
-
-Now switch your MetaMask wallet network to Localhost 8545 and import the account using the private keys listed by hardhat.
-_For better testing the transfer of tokens and transactions import at least 2 accounts_
-
-After this you can run and test the dapp locally in your web browser.
 
 ## TODO Fetures
