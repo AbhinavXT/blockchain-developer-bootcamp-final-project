@@ -34,6 +34,29 @@ Eternal Characters are the residants of **Eternal Domain** world. They consists 
 
 ## Workflow
 
+1. Enter the website.
+2. Connect wallet to rinkeby network.
+3. After enterning the site the user can:
+   1. **Buy Charactersharacters**
+      - Go to the **Home** page and click on the **Buy** button under the item which user want to buy.
+      - User will be redirected to the **BuyNFT** page which shows the price and other details about the item.
+      - Click on the **Buy** button to buy the item.
+      - Metamask pops up and asks to confirm the transaction for the price of the item.
+      - After the transaction is successfully processed user is redirected to the **My NFT** page.
+      - The bought item is displayed under the **Bought Characters** section
+   2. **Mint Characters**
+      - Go to the mint page and click on the **Mint Character** button.
+      - Metamask pops up and asks to confirm the transaction.
+      - After the transaction is successfully processed the user can see the minted character.
+      - The minted character is also added to **My NFT** page under **Minted Characters** section.
+   3. **Sell Characters**
+      - Go to the **My NFT** page and click on the **Sell** button under the minted item which user want to sell.
+      - User will be redirected to the **SellNFT** page where user can enter the price for the item.
+      - After enterning the desired price, click on the **Sell** button to list the item in the market place.
+      - Metamask pops up and asks to confirm the transaction for the listing price.
+      - After the transaction is successfully processed user is redirected to the **Home** page.
+      - The item will be listed in the marketplace to be bought for the price entered by the user.
+
 ## Directory structure
 
 ```
