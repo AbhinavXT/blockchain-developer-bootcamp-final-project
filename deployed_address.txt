@@ -1,3 +1,3 @@
-EternalNFT Contract Address = '0x6FF882213D7B0465779FE49eaF121031d6b8656c'
-EternalMarketplace Contract Address = '0xa54C07861370f060265dFe9764dE015522D97E3E'
+EternalNFT Contract Address = '0xf2fdbaaE48E16c28115D75d6e5642E8Bdee27997'
+EternalMarketplace Contract Address = '0xF8cC13b9ff3999E88Ef2B4635D1fB536A87c4059'
 Network: Rinkeby
