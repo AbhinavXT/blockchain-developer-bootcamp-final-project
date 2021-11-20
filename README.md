@@ -31,7 +31,7 @@ Eternal Characters are the residants of **Eternal Domain** world. They consists 
 
 ## Workflow
 
-1. Enter the website and connect the wallet to rinkeby network.
+1. Enter the website and connect the wallet to **Rinkeby network**.
 2. After enterning the site the user can:
    1. **Buy Charactersharacters**
       - Go to the **Home** page and click on the **Buy** button under the item which user want to buy.
