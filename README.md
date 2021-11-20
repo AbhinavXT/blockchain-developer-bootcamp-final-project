@@ -55,6 +55,11 @@ Eternal Characters are the residants of **Eternal Domain** world. They consists 
       - After the transaction is successfully processed user is redirected to the **Home** page.
       - The item will be listed in the marketplace to be bought for the price entered by the user.
 
+## Related docs
+[deployed_address.txt](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/deployed_address.txt)
+[design_pattern_decisions.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/design_pattern_decisions.md)
+[avoiding_common_attacks.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/avoiding_common_attacks.md)
+
 ## Directory structure
 
 ```
