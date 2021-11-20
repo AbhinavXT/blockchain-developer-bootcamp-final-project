@@ -12,6 +12,7 @@
     - [Testing Contracts](#testing-contracts)
     - [Running the frontend](#running-the-frontend)
     - [Deploying and running against a local instance](#deploying-and-running-against-a-local-instance)
+  - [Troubleshooting](#troubleshooting)
 
 ## Deployed Website url
 
@@ -187,5 +188,7 @@ nft contract deployed to: 'EternalNFT contract address'
 cd client
 npm run dev
 ```
-
 After this you can run and test the dApp locally in your web browser.
+
+## Troubleshooting
+While testing the dApp on aginst a local instance, if you get the **Nonce too high** error in the hardhat node terminal or the UI does not show processing your transaction after confirming a transaction, try **resetting your metamask account**. This can be done by going to **Settings > Advanced > Reset Account** in Metamask.
