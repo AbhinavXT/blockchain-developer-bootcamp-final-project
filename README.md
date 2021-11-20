@@ -198,4 +198,18 @@ npm run dev
 After this you can run and test the dApp locally in your web browser.
 
 ## Troubleshooting
+### For custom chainId
+The default chain for network localhost8545 is 1337. To change the chainId, the user should follow these steps :
+1. Change the chainId in networks under hardhat in [hardhat.config.js](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/hardhat.config.js) file.
+```
+hardhat: {
+  chainId: 1337,
+}
+```
+2. After this the user needs to change the chainId in the [_app.js](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/client/pages/_app.js) file on line 42 and 67 under the functions **connectWallet()** and **checkCorrectNetwork()** respectively.
+```
+const devChainId = 1337
+```
+  
+### For 'Nonce too High' Error 
 While testing the dApp on aginst a local instance, if you get the **Nonce too high** error in the hardhat node terminal or the UI does not show processing your transaction after confirming a transaction, try **resetting your metamask account**. This can be done by going to **Settings > Advanced > Reset Account** in Metamask.
