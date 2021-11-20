@@ -203,7 +203,7 @@ After this you can run and test the dApp locally in your web browser.
 
 ## Troubleshooting
 ### For custom chainId
-The default chain for network localhost8545 is 1337. To change the chainId, the user should follow these steps :
+The default chainId for network localhost8545 is 1337. To change the chainId, the user should follow these steps :
 1. Change the chainId in networks under hardhat in [hardhat.config.js](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/hardhat.config.js) file.
 ```
 hardhat: {
