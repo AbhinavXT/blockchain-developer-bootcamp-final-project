@@ -36,8 +36,12 @@ function MyApp({ Component, pageProps }) {
 			}
 			let chainId = await ethereum.request({ method: 'eth_chainId' })
 			console.log('Connected to chain:' + chainId)
+
 			const rinkebyChainId = '0x4'
-			const localhostChainId = '0x539'
+
+			const devChainId = 1337
+			const localhostChainId = `0x${Number(devChainId).toString(16)}`
+
 			if (chainId !== rinkebyChainId && chainId !== localhostChainId) {
 				alert('You are not connected to the Rinkeby Testnet!')
 				return
@@ -57,8 +61,12 @@ function MyApp({ Component, pageProps }) {
 		const { ethereum } = window
 		let chainId = await ethereum.request({ method: 'eth_chainId' })
 		console.log('Connected to chain:' + chainId)
+
 		const rinkebyChainId = '0x4'
-		const localhostChainId = '0x539'
+
+		const devChainId = 1337
+		const localhostChainId = `0x${Number(devChainId).toString(16)}`
+
 		if (chainId !== rinkebyChainId && chainId !== localhostChainId) {
 			setCorrectNetwork(false)
 		} else {
