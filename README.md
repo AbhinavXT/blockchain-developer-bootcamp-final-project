@@ -189,10 +189,8 @@ export const nftMarketAddress = 'EternalNFT contract address''
 
    1. Import account using private key from one of the accounts that were logged on running `npx hardhat node`
    2. Create a custom network (if not already there) pointing to http://127.0.0.1:8545 with **chainId 1337**
-   3. Switch to this network and connect it to the dApp
-   4. This should change the network and refresh the dApp to the correct network.
-   5. Make sure to connect your account to the dApp first
-   6. _*For better testing of the transfer of tokens and transactions import at least 2 accounts*_
+   3. Switch to this network and connect it to the dApp and reload it.
+   6. For better testing of the transfer of tokens and transactions import at least 2 accounts*_
    7. For changing chainId and other possible errors see [Troubleshooting](#troubleshooting)
 
 6. Now run the frontend locally in aother terminal using command:
