@@ -11,7 +11,7 @@
     - [Cloning and installing dependencies](#cloning-and-installing-dependencies)
     - [Testing Contracts](#testing-contracts)
     - [Running the frontend](#running-the-frontend)
-  - [TODO Fetures](#todo-fetures)
+    - [Deploying and running against a local instance](#deploying-and-running-against-a-local-instance)
 
 ## Deployed Website url
 
@@ -31,8 +31,8 @@ Eternal Characters are the residants of **Eternal Domain** world. They consists 
 
 ## Workflow
 
-1. Enter the website and connect the wallet to **Rinkeby network**.
-2. After enterning the site the user can:
+1. Enter the dApp and connect the wallet to rinkeby network.
+2. After enterning the dApp the user can:
    1. **Buy Charactersharacters**
       - Go to the **Home** page and click on the **Buy** button under the item which user want to buy.
       - User will be redirected to the **BuyNFT** page which shows the price and other details about the item.
@@ -148,4 +148,44 @@ cd client
 npm run dev
 ```
 
-## TODO Fetures
+### Deploying and running against a local instance
+
+1. For deploying and running the dApp against a local instance run commands:
+
+```
+npx hardhat node
+```
+
+2. This should create a local network with 19 accounts. Keep it runnning, and in another terminal run:
+
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+3. When the deployment is complete, the CLI should print out the addresses of the contracts that were deployed:
+
+```
+nftMarket contract deployed to: 'EternalMarketplace contract address'
+
+nft contract deployed to: 'EternalNFT contract address'
+```
+
+4. Copy these addresses and paste them in the **config.js** file inside the client floder, in place of current addresses.
+
+5. For importing account to metamask
+
+   1. Import account using private key from one of the that was logged on running `npx hardhat node`
+   2. Create a custom network (if not already there) pointing to http://127.0.0.1:8545 with **chainId 1337**
+   3. Switch to this network and connect it to the dApp
+   4. This should change the network and refresh the dApp to the correct network.
+   5. Make sure to connect your account to the dApp first
+   6. _*For better testing of the transfer of tokens and transactions import at least 2 accounts*_
+
+6. Now run the frontend locally in aother terminal using command:
+
+```
+cd client
+npm run dev
+```
+
+After this you can run and test the dApp locally in your web browser.
