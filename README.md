@@ -171,16 +171,22 @@ nftMarket contract deployed to: 'EternalMarketplace contract address'
 nft contract deployed to: 'EternalNFT contract address'
 ```
 
-4. Copy these addresses and paste them in the **config.js** file inside the client floder, in place of current addresses.
+4. Copy these addresses and paste them in the [**config.js**](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/client/config.js) file inside the client floder, in place of current addresses.
+```
+export const nftContractAddress = 'EternalMarketplace contract address'
+
+export const nftMarketAddress = 'EternalNFT contract address''
+```
 
 5. For importing account to metamask
 
-   1. Import account using private key from one of the that was logged on running `npx hardhat node`
+   1. Import account using private key from one of the accounts that were logged on running `npx hardhat node`
    2. Create a custom network (if not already there) pointing to http://127.0.0.1:8545 with **chainId 1337**
    3. Switch to this network and connect it to the dApp
    4. This should change the network and refresh the dApp to the correct network.
    5. Make sure to connect your account to the dApp first
    6. _*For better testing of the transfer of tokens and transactions import at least 2 accounts*_
+   7. For changing chainId and other possible errors see [Troubleshooting](#troubleshooting)
 
 6. Now run the frontend locally in aother terminal using command:
 
