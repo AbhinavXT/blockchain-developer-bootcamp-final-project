@@ -1,9 +1,6 @@
 # Final project - Eternal Domain Marketplace
 
 ## Table of Contents:
-
-- [Final project - Eternal Domain Marketplace](#final-project---eternal-domain-marketplace)
-  - [Table of Contents:](#table-of-contents)
   - [Deployed Website url](#deployed-website-url)
   - [Screencast link](#screencast-link)
   - [Project Description](#project-description)
