@@ -5,6 +5,7 @@
   - [Screencast link](#screencast-link)
   - [Project Description](#project-description)
   - [Workflow](#workflow)
+  - [Related docs](#related-docs)
   - [Directory structure](#directory-structure)
   - [Clone, Install and Build steps](#clone-install-and-build-steps)
     - [Prerequisites](#prerequisites)
@@ -56,9 +57,9 @@ Eternal Characters are the residants of **Eternal Domain** world. They consists 
       - The item will be listed in the marketplace to be bought for the price entered by the user.
 
 ## Related docs
-[deployed_address.txt](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/deployed_address.txt)
-[design_pattern_decisions.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/design_pattern_decisions.md)
-[avoiding_common_attacks.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/avoiding_common_attacks.md)
+- [deployed_address.txt](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/deployed_address.txt)
+- [design_pattern_decisions.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/design_pattern_decisions.md)
+- [avoiding_common_attacks.md](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/avoiding_common_attacks.md)
 
 ## Directory structure
 
