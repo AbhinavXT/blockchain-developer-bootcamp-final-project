@@ -1,6 +1,6 @@
 # Avoiding Common Attacks
 
-The contract applies the following measures to avoid common security pitfalls:
+The following measures were applied in [EternalNFT.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalNFT.sol) and [EternalMarketplace.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalMarketplace.sol) contracts to avoid common security pitfalls:
 
 - **Proper setting of visibility for functions**: Functions are specified as being external, public, internal or private to reduce the attack surface of a contract system. - [SWC-100](https://swcregistry.io/docs/SWC-100)
 - **Using Specific Compiler Pragma:** Solidity 0.8.3 is used in both EternalNFT and EternalMarketplace contracts and not floating pragma. - [SWC-103](https://swcregistry.io/docs/SWC-103) 
