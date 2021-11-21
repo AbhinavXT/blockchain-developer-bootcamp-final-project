@@ -26,7 +26,7 @@ https://youtu.be/DE216KMBUMg
 
 **Eternal Domain** is a marketplace where users can buy, sell and mint **Eternal Characters**, which are ERC-721 standard (NFT) tokens.
 
-Eternal Characters are the residents of **Eternal Domain** world. They consists of 3 main characteristics, **Area of Control, Weapon and Rank**.
+Eternal Characters are the residents of **Eternal Domain** world. They consist of 3 main characteristics, **Area of Control, Weapon and Rank**.
 
 - **Area of Control -** Fire, Wind, Wave, Earth, Light, Shadow, Thunder, Space, Time, Gravity, Ice
 - **Weapon -** Sword, Spear, Shield, Hammer, Saber, Axe, Bow, Staff, Wand, Fist, Dagger, Scythe, Mace, Blade, Katana
