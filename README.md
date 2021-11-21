@@ -25,7 +25,7 @@ https://eternal-domain.vercel.app/
 https://youtu.be/DE216KMBUMg
 
 ## Public Ethereum wallet
-0xc40a8C17aF0D57d788d0502f9293aCF0108823d5
+`0xc40a8C17aF0D57d788d0502f9293aCF0108823d5`
 
 ## Project Description
 
