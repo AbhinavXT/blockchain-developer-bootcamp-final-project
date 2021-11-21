@@ -3,6 +3,7 @@
 ## Table of Contents:
   - [Deployed Website url](#deployed-website-url)
   - [Screencast link](#screencast-link)
+  - [Public Ethereum wallet](#public-ethereum-wallet)
   - [Project Description](#project-description)
   - [Workflow](#workflow)
   - [Related docs](#related-docs)
@@ -14,6 +15,7 @@
     - [Running the frontend](#running-the-frontend)
     - [Deploying and running against a local instance](#deploying-and-running-against-a-local-instance)
   - [Troubleshooting](#troubleshooting)
+  - [TODO](#todo)
 
 ## Deployed Website url
 
@@ -21,6 +23,9 @@ https://eternal-domain.vercel.app/
 
 ## Screencast link
 https://youtu.be/DE216KMBUMg
+
+## Public Ethereum wallet
+0xc40a8C17aF0D57d788d0502f9293aCF0108823d5
 
 ## Project Description
 
@@ -201,6 +206,12 @@ npm run dev
 ```
 After this you can run and test the dApp locally in your web browser.
 
+### Environment variables (not needed for running project locally)
+```
+INFURA_RINKEBY_URL =
+ACCOUNT_KEY =
+```
+
 ## Troubleshooting
 ### For custom chainId
 The default chainId for network localhost8545 is 1337. To change the chainId, the user should follow these steps :
@@ -217,3 +228,8 @@ const devChainId = 1337
   
 ### For 'Nonce too High' Error 
 While testing the dApp on against a local instance, if you get the **Nonce too high** error in the hardhat node terminal or the UI does not show processing your transaction after confirming a transaction, try **resetting your metamask account**. This can be done by going to **Settings > Advanced > Reset Account** in Metamask.
+
+## TODO
+- Using oracle for on chain randomness in generating NFTs
+- Fetures for bought eternal items
+- Better frontend design
