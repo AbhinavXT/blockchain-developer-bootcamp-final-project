@@ -231,5 +231,4 @@ While testing the dApp on against a local instance, if you get the **Nonce too h
 
 ## TODO
 - Using oracle for on chain randomness in generating NFTs
-- Fetures for bought eternal items
-- Better frontend design
+- Selling feture for bought eternal items
