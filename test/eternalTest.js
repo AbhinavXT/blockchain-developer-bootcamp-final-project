@@ -82,7 +82,7 @@ describe('EternalNFT Contract', async () => {
 	})
 })
 
-describe('EternalMarket', function () {
+describe('EternalMarketpalce Contract', function () {
 	let nft
 	let market
 	let marketContractAddress
@@ -155,7 +155,7 @@ describe('EternalMarket', function () {
 	})
 
 	// Test for fetchng details of an Eternal Marketplace item using its itemId
-	it('Should be able to get an Eternal by its tokenId', async () => {
+	it('Should be able to get an Eternal item by its tokenId', async () => {
 		// Mints 2 NFTs
 		await nft.createEternalNFT()
 		await nft.createEternalNFT()
@@ -177,7 +177,7 @@ describe('EternalMarket', function () {
 	})
 
 	// Test for fetchng details of all created Eternal Marketplace items
-	it('Should be able to get an Eternal by its tokenId', async () => {
+	it('Should be able to get an Eternal item by its tokenId', async () => {
 		// Mints 2 NFTs
 		await nft.createEternalNFT()
 		await nft.createEternalNFT()
