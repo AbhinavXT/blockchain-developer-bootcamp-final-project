@@ -186,7 +186,7 @@ const buynft = () => {
 				<div className='flex flex-col gap-y-4 w-96'>
 					<buttom
 						onClick={buyEternalNft}
-						className='flex justify-center items-center h-12 rounded-lg shadow-lg bg-gray-800 font-bold text-lg cursor-pointer'
+						className='flex justify-center items-center h-12 rounded-lg shadow-lg bg-gray-800 text-gray-100 font-bold text-lg cursor-pointer hover:shadow-lg hover:scale-105 transition duration-500 ease-in-out'
 					>
 						Buy
 					</buttom>
