@@ -1,6 +1,6 @@
 # Design pattern decisions
 
-The following patterns were implemented in [EternalNFT.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalNFT.sol) and [EternalMarketplace.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalMarketplace.sol) contracts :
+The following design patterns were implemented in [EternalNFT.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalNFT.sol) and [EternalMarketplace.sol](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/contracts/EternalMarketplace.sol) contracts :
 ## Inter-Contract Execution
 - The **EternalNFT** contract intracts with [OpenZepplin ERC721URIStorage](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721URIStorage.sol) for _safeMint(), _setTokenURI() and setApprovalForAll() functions for creting ERC-721 tokens.
 - The **EternalMarketplace** contract intracts with **EternalNFT** contract to transfer ERC-721 tokens from the seller to the buyer through the marketplace contract.
