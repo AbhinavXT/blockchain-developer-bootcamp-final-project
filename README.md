@@ -22,7 +22,7 @@
 https://eternal-domain.vercel.app/
 
 ## Screencast link
-https://youtu.be/DE216KMBUMg
+https://youtu.be/ddcQU3dwEe8
 
 ## Public Ethereum wallet
 `0xc40a8C17aF0D57d788d0502f9293aCF0108823d5`
