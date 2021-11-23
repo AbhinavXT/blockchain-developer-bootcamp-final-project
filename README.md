@@ -42,7 +42,7 @@ Eternal Characters are the residents of **Eternal Domain** world. They consist o
 1. Enter the dApp and connect the wallet to rinkeby network.
 2. After entering the dApp the user can:
    1. **Buy Characters**
-      - Go to the **Home** page and click on the **Buy** button under the item which user want to buy.
+      - Go to the **Home** page and click on the item which user want to buy.
       - User will be redirected to the **BuyNFT** page which shows the price and other details about the item.
       - Click on the **Buy** button to buy the item.
       - Metamask pops up and asks to confirm the transaction for the price of the item.
