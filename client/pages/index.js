@@ -111,7 +111,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='font-semibold text-lg mt-12'>Connected: {account}</div>
+			<div className='font-bold text-4xl mt-12'>Eternal Marketplace</div>
 
 			<div>
 				{loadingState === 0 ? (
@@ -133,7 +133,7 @@ export default function Home() {
 					<div className='flex flex-col justify-center items-center'>
 						<div className='flex justify-center'>
 							<div className='px-4'>
-								<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-4 mt-16'>
+								<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16'>
 									{nfts.map((nft, i) => (
 										<div
 											key={i}
@@ -181,14 +181,6 @@ export default function Home() {
 													<div>{nft.price.split('.')[0]}</div>
 												</div>
 											</div>
-											{/* <div className='p-4'>
-												<button
-													onClick={() => buyToken(nft.tokenId, nft.itemId)}
-													className='w-full bg-gray-800 text-white font-bold py-2 px-12 rounded-lg hover:shadow-lg hover:scale-105 transition duration-500 ease-in-out'
-												>
-													Buy
-												</button>
-											</div> */}
 										</div>
 									))}
 								</div>

@@ -127,7 +127,11 @@ const mint = () => {
 					<div className='font-semibold text-lg text-center mb-4'>
 						Your Eternal Domain Character
 					</div>
-					<img src={mintedNFT} alt='' className='h-80 w-80' />
+					<img
+						src={mintedNFT}
+						alt=''
+						className='h-80 w-80 rounded-lg shadow-xl hover:scale-105 transition duration-500 ease-in-out'
+					/>
 				</div>
 			)}
 		</div>
