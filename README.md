@@ -185,9 +185,9 @@ nft contract deployed to: 'EternalNFT contract address'
 
 4. Copy these addresses and paste them in the [**config.js**](https://github.com/AbhinavXT/blockchain-developer-bootcamp-final-project/blob/main/client/config.js) file inside the client floder, in place of current addresses.
 ```
-export const nftContractAddress = 'EternalMarketplace contract address'
+export const nftMarketAddress = 'EternalNFT contract address'
 
-export const nftMarketAddress = 'EternalNFT contract address''
+export const nftContractAddress = 'EternalMarketplace contract address'
 ```
 
 5. For importing account to metamask
