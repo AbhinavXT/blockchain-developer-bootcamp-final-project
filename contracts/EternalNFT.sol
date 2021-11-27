@@ -3,7 +3,6 @@ pragma solidity 0.8.3;
 
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
 import { Base64 } from "./libraries/Base64.sol";
 
 
@@ -13,7 +12,7 @@ import { Base64 } from "./libraries/Base64.sol";
 /// @dev Inherits from ERC721URIStorage contract for ERC-721 token functionality.
 /// @dev Uses Counters library for tracking tokenId of the minted tokens.
 /// @dev Uses Base64 library for for encoding the tokenURI.
-contract EternalNFT is ERC721URIStorage, Ownable {
+contract EternalNFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenId;
     address contractAddress;

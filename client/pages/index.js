@@ -12,7 +12,6 @@ import Loader from 'react-loader-spinner'
 import { useRouter } from 'next/router'
 
 export default function Home() {
-	const [account, setAccount] = useState('')
 	const [nfts, setNfts] = useState([])
 	const [loadingState, setLoadingState] = useState(0)
 	const [txError, setTxError] = useState(null)
@@ -25,25 +24,6 @@ export default function Home() {
 			pathname: '/buynft',
 			query: { tokenid: tokenId, itemid: itemId },
 		})
-	}
-
-	// Fetches the connected account address
-	const getAccount = async () => {
-		try {
-			const { ethereum } = window
-
-			if (!ethereum) {
-				console.log('Metamask not detected')
-				return
-			}
-
-			const accounts = await ethereum.request({ method: 'eth_requestAccounts' })
-
-			console.log('Found account', accounts[0])
-			setAccount(accounts[0])
-		} catch (error) {
-			console.log('Error connecting to metamask', error)
-		}
 	}
 
 	// Fetches the marketplace items put for sale
@@ -99,7 +79,6 @@ export default function Home() {
 	}
 
 	useEffect(() => {
-		getAccount()
 		loadEternalNFT()
 	}, [])
 
