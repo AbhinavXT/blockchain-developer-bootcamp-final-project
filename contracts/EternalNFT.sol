@@ -118,7 +118,7 @@ contract EternalNFT is ERC721URIStorage {
     }
 
     /// @notice Mints a new Eternal NFT token
-    /// @dev uses generates a final tokenURI by using the base64 encoded json data
+    /// @dev Generates a final tokenURI by using the base64 encoded json data
     /// @return uint256 The tokenId of the minted NFT
     function createEternalNFT() public returns(uint256) {
         uint256 newItemId = _tokenId.current();
